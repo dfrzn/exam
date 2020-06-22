@@ -10,7 +10,7 @@ public class Subsequence {
         if (x == null || y == null) throw new IllegalArgumentException(); //check on null
         if (x.isEmpty()) return true; // check if first list is empty
 
-        // queue better remove element
+        // queue better remove elemnt
         Queue xQueue = new LinkedList<>(x);
         Queue yQueue = new LinkedList<>(y);
         //objects for items from lists
