@@ -142,6 +142,7 @@ public class PyramidBuilderTest {
         List<Integer> input = new ArrayList<>();
         for (int i = 1; i < 10000; i++) {
             input.add(i);
+
         }
 
         // run
